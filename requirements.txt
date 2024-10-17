@@ -1,0 +1,7 @@
+numpy
+openai>=1.42.0
+pytest
+requests
+tqdm
+pre-commit
+instructor
