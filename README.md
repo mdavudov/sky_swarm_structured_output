@@ -17,7 +17,7 @@ Modified Agent class:
 | **instructions** | `str` or `func() -> str` | Instructions for the agent, can be a string or a callable returning a string. | `"You are a helpful agent."` |
 | **functions**    | `List`                   | A list of functions that the agent can call.                                  | `[]`                         |
 | **tool_choice**  | `str`                    | The tool choice for the agent, if any.                                        | `None`                       |
-| **response_format**  | `BaseModel`                    | Pydantic schema defining the response format for the agent | `None`                       |
+| **response_format**  | `BaseModel` or `None`                   | Pydantic schema defining the response format for the agent | `None`                       |
 
 ![Swarm Logo](assets/logo.png)
 
