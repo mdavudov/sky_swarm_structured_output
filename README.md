@@ -1,3 +1,7 @@
+Modification of the Swarm library to support structured outputs.
+
+Original library: https://github.com/openai/swarm
+
 ![Swarm Logo](assets/logo.png)
 
 # Swarm (experimental, educational)
