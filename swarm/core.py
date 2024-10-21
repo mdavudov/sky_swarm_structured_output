@@ -257,7 +257,6 @@ class Swarm:
                 debug=debug,
                 max_turns=max_turns,
                 execute_tools=execute_tools,
-                response_format=response_format,
             )
         active_agent = agent
         context_variables = copy.deepcopy(context_variables)
